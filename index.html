@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego da Silva Cordovil | Desenvolvedor Front-End Júnior</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="brand">Diego da Silva Cordovil</h1>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+<!-- Hero -->
+<section class="hero">
+  <div class="container hero-container">
+    <div class="profile-photo">
+      <img src="assets/foto-diego.png" alt="Foto de Diego da Silva Cordovil">
+    </div>
+    <h2>Desenvolvedor Front-End Júnior</h2>
+    <p>Crio interfaces modernas e responsivas utilizando HTML, CSS e JavaScript, com foco em usabilidade e performance.</p>
+    <a href="#projetos" class="btn">Ver meus projetos</a>
+  </div>
+</section>
+
+ 
+  <!-- Sobre Mim -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>Sou <strong>Diego da Silva Cordovil</strong>, estou em <strong>transição de carreira para a área de tecnologia</strong>, atualmente atuando como <strong>Desenvolvedor Front-End</strong> e estudante de <strong>Desenvolvedor Full-Stack</strong>.</p>
+      <p>Sou uma pessoa <strong>proativa, responsável e colaborativa</strong>, com facilidade para trabalhar em equipe e resolver desafios de forma criativa e eficiente.</p>
+      <p>A cada dia me atualizo e aprendo sobre novas tecnologias, incluindo <strong>frameworks modernos, React, Node.js, TypeScript</strong>, e estou <strong>desenvolvendo habilidades em back-end</strong>, expandindo minha visão e capacidade como futuro desenvolvedor full-stack.</p>
+      <p>Tenho <strong>curiosidade, disciplina e mentalidade de crescimento</strong>, sempre buscando escrever códigos mais limpos, criar interfaces modernas e aplicar boas práticas em cada projeto que desenvolvo.</p>
+      <a href="assets/CV-DiegoCordovil.pdf" class="btn" download>Baixar CV</a>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="projetos">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="grid-projetos">
+        <!-- Projeto 1 -->
+        <div class="card-projeto">
+          <img src="assets/projeto1.png" alt="Projeto Responsivo Iniciante">
+          <h3>Projeto Responsivo Iniciante</h3>
+          <p>Uma landing page simples e moderna, desenvolvida com HTML e CSS, totalmente responsiva para diferentes tamanhos de tela.</p>
+          <p><strong>Tecnologias:</strong> HTML • CSS</p>
+          <a href="https://github.com/DiegoCordovil/ProjetoResponsivo" target="_blank" class="btn-small">Ver no GitHub</a>
+        </div>
+        <!-- Projeto 2 -->
+        <div class="card-projeto">
+          <img src="assets/projeto2.png" alt="Site Interativo do Mario e Luigi">
+          <h3>Site Interativo do Mario e Luigi</h3>
+          <p>Página temática com vídeo de fundo, formulário interativo e elementos animados. Experiência prática de manipulação de DOM e eventos em JavaScript.</p>
+          <p><strong>Tecnologias:</strong> HTML • CSS • JavaScript</p>
+          <a href="https://github.com/DiegoCordovil/projetoMarioLuigi" target="_blank" class="btn-small">Ver no GitHub</a>
+        </div>
+        <!-- Projeto 3 -->
+        <div class="card-projeto">
+          <img src="assets/projeto3.png" alt="Projeto Sorteador">
+          <h3>Projeto Sorteador</h3>
+          <p>Aplicação que gera números aleatórios com lógica JavaScript e exibição dinâmica dos resultados.</p>
+          <p><strong>Tecnologias:</strong> HTML • CSS • JavaScript</p>
+          <a href="https://github.com/DiegoCordovil/ProjetoSorteador" target="_blank" class="btn-small">Ver no GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <form id="form-contato" novalidate>
+        <label>Nome
+          <input type="text" name="nome" placeholder="Seu nome" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="seu@email.com" required>
+        </label>
+        <label>Mensagem
+          <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+        </label>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      <div class="links-contato">
+  <a href="https://github.com/DiegoCordovil/DiegoCordovil" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/diego-cordovil" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a href="https://wa.me/5592993578512" target="_blank">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+</div>
+
+    </div>
+  </section>
+  
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="ano"></span> Diego da Silva Cordovil. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
